@@ -26,10 +26,10 @@ function convertToBool(text, fault = 'true') {
 //--------------------------Mr Frank---------------------------------------
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID || "ENTER YOUR SUBZERO SESSION HERE",
+SESSION_ID: process.env.SESSION_ID || "zZxn0CiI#_JevAe-xhqkyqbk3yFLtW2MjiNN3344-X_tTQZNXvnM",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true", //TRUE OR FALSE
 OWNER_NUMBER: process.env.OWNER_NUMBER || "18062212660",
-MODE: process.env.MODE || "public",  // PRIVATE OR PUBLIC
+MODE: process.env.MODE || "private",  // PRIVATE OR PUBLIC
 AUTO_VOICE: process.env.AUTO_VOICE || "true",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
@@ -38,10 +38,10 @@ ALIVE_MSG: process.env.ALIVE_MSG || "sᴜʙᴢᴇʀᴏ ᴀɪ ɪs ᴀʟɪᴠᴇ. 
 ANTI_LINK: process.env.ANTI_LINK || "true",
 ANTI_BAD: process.env.ANTI_BAD || "true",
 PREFIX: process.env.PREFIX || ".", // .,!/?
-FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
-AUTO_REACT: process.env.AUTO_REACT || "false",
-HEART_REACT: process.env.HEART_REACT || "false",
-OWNER_REACT: process.env.OWNER_REACT || "false",
+FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
+AUTO_REACT: process.env.AUTO_REACT || "true",
+HEART_REACT: process.env.HEART_REACT || "true",
+OWNER_REACT: process.env.OWNER_REACT || "true",
 BOT_NAME: process.env.BOT_NAME || "『 ＳＵＢＺＥＲＯ - ＭＤ 』",
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
 };
